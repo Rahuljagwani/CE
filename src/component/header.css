@@ -1,0 +1,100 @@
+.header {
+    background: #fff;
+    user-select: none
+}
+
+.toolbar {
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.toolbar .tool {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 60px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.3);
+    transition: none;
+    height: 60px;
+}
+
+.toolbar .tool.active {
+    color: #333;
+}
+
+.toolbar .tool-text-only {
+    font-size: 16px;
+    color: #888;
+    height: 100%;
+    padding: 10px;
+}
+
+.toolbar .tool.active:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.toolbar .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbar .space {
+    display: inline-flex;
+    flex: 1;
+}
+
+.titlebar {
+    padding: 0px 10px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    background-color: #1e88e5;
+    color: #fff;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.sep {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.Vsep {
+    display: inline-flex;
+    height: 80%;
+    margin: auto;
+    width: 1px;
+    vertical-align: bottom;
+    height: 50px;
+}
+
+.hsep {
+    width: 100%;
+    height: 1px;
+}
+
+.rc-switch-checked {
+    border: 1px solid #1e88e5;
+    background-color: #1e88e5;
+}
+
+.rc-menu-container {
+    position: absolute;
+}
+
+.rc-menu-button {
+    border: 0;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}

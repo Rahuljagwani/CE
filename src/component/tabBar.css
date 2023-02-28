@@ -1,0 +1,60 @@
+.tab-par {
+    display: flex;
+    overflow: auto;
+    margin-bottom: -1px;
+    width: 100%;;
+}
+
+.tab {
+    background-color: #ddd;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #bbb;
+    z-index: 1;
+    position: relative;
+    line-height: 30px;
+    padding: 0px 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    overflow: hidden;
+    border-bottom: 1px solid #888;
+    justify-content: center;
+    align-items: center;
+    min-width: 30px;
+    margin: 0;
+}
+
+.tab.tab-graph {
+    width: 200px;
+    margin-left: -1px;
+    text-align: left;
+    min-width: 60px;
+}
+
+.tab:hover {
+    background-color: #ccc;
+}
+
+.tab.selected {
+    background-color: #fff;
+    border: 1px solid #888;
+    z-index: 2;
+    border-bottom: 0;
+}
+
+.tab-text {
+    flex: 1;
+    overflow: hidden;
+}
+
+.tab-act {
+    margin-left: 5px;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    padding: 0;
+}
+
+.tab-act:hover {
+    text-shadow: 0px 0px 10px #000;
+}

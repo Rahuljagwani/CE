@@ -1,0 +1,84 @@
+{
+  "name": "concore-editor",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://controlcore-project.github.io/concore-editor",
+  "dependencies": {
+    "@szhsin/react-menu": "^1.10.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.2.4",
+    "chokidar": "^3.5.3",
+    "cytoscape": "^3.19.0",
+    "cytoscape-edgehandles": "^3.6.0",
+    "cytoscape-grid-guide": "^2.3.2",
+    "cytoscape-node-editing": "^4.0.0",
+    "file-saver": "^2.0.5",
+    "hotkeys-js": "^3.8.7",
+    "jquery": "^3.0.0",
+    "konva": "^7.0.3",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "prismjs": "^1.29.0",
+    "rc-slider": "^9.7.2",
+    "rc-switch": "^3.2.2",
+    "react": "^17.0.2",
+    "react-color": "^2.19.3",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-keyed-file-browser": "^1.14.0",
+    "react-modal": "^3.13.1",
+    "react-scripts": "4.0.3",
+    "react-simple-code-editor": "^0.13.0",
+    "react-tooltip": "^4.2.21",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3",
+    "xml2js": "^0.4.23",
+    "zealit": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-localhost": "PUBLIC_URL=/ react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}

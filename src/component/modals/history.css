@@ -1,0 +1,36 @@
+.hist-container{
+    padding: 20px;
+}
+ fieldset{
+    border-color: rgba(0,0,0,0.1);
+    border-style: solid;
+    text-align: center;
+}
+
+.hist-container label{
+    white-space: nowrap;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+.hist-element{
+    /* list-style-type: 'circle'; */
+    line-height: 25px;
+}
+
+.hist-element .a-link{
+    color: #0044cc;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hist-element td{
+    padding: 0 5px;
+}
+
+.hist-element.active{
+    background-color: rgba(0, 0, 0, 0.01);
+    text-decoration: underline;
+}

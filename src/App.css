@@ -1,0 +1,87 @@
+* {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+input {
+  border: 1px solid #999;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.body {
+  background-color: rgb(240, 242, 245);
+  height: -webkit-fill-available;
+  flex: 1;
+}
+
+.graph {
+  padding: 50px;
+  background-color: rgb(240, 242, 245);
+  height: -webkit-fill-available;
+  flex: 80;
+}
+
+.graph-container {
+  background-color: #fff;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .graph {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .graph {
+    padding: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .graph {
+    padding: 20px;
+  }
+}
